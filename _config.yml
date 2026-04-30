@@ -1,0 +1,43 @@
+title: "Huravar 星轨日志"
+description: "记录技术、生活与灵感的个人博客。"
+author:
+  name: "Huravar"
+  email: ""
+  location: "China"
+url: "https://huravar.github.io"
+baseurl: ""
+lang: "zh-CN"
+timezone: "Asia/Shanghai"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  hard_wrap: false
+highlighter: rouge
+
+permalink: /posts/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Huravar"
+      image: "/assets/images/og-default.svg"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
