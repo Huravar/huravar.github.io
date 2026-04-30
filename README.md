@@ -1,6 +1,6 @@
-# Huravar 星轨日志
+# Huravar Notes
 
-这是一个基于 Jekyll 和 GitHub Pages 的个人博客。它以 Markdown 写作为核心，提供创意科技感 UI、文章归档、标签页、RSS 订阅和移动端适配。
+这是一个基于 Jekyll 和 GitHub Pages 的个人博客。它以 Markdown 写作为核心，提供简洁的深色 UI、文章归档、标签页、RSS 订阅、在线编辑后台和移动端适配。
 
 ## 本地预览
 

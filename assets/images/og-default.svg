@@ -1,21 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Huravar hå×">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Huravar Notes">
   <defs>
     <linearGradient id="bg" x1="0" y1="630" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#080b16"/>
-      <stop offset="0.52" stop-color="#151b35"/>
-      <stop offset="1" stop-color="#25315f"/>
+      <stop stop-color="#0b1020"/>
+      <stop offset="0.55" stop-color="#111827"/>
+      <stop offset="1" stop-color="#1f2937"/>
     </linearGradient>
     <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(850 160) rotate(122) scale(500)">
-      <stop stop-color="#2de2e6" stop-opacity="0.8"/>
-      <stop offset="1" stop-color="#2de2e6" stop-opacity="0"/>
+      <stop stop-color="#38bdf8" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="1200" height="630" fill="url(#bg)"/>
   <rect width="1200" height="630" fill="url(#glow)"/>
-  <path d="M120 455C260 250 430 565 610 285S940 245 1080 120" fill="none" stroke="#7c5cff" stroke-width="4" stroke-opacity="0.55"/>
-  <circle cx="120" cy="455" r="8" fill="#2de2e6"/>
-  <circle cx="610" cy="285" r="8" fill="#ffcb6b"/>
-  <circle cx="1080" cy="120" r="8" fill="#2de2e6"/>
-  <text x="120" y="250" fill="#eef4ff" font-family="Inter, Microsoft YaHei, sans-serif" font-size="74" font-weight="800">Huravar hå×</text>
-  <text x="122" y="322" fill="#9eadc7" font-family="Inter, Microsoft YaHei, sans-serif" font-size="32">€/;u„*ºZ¢</text>
+  <path d="M120 455C280 330 420 510 610 305S940 260 1080 150" fill="none" stroke="#38bdf8" stroke-width="4" stroke-opacity="0.42"/>
+  <circle cx="120" cy="455" r="7" fill="#38bdf8"/>
+  <circle cx="610" cy="305" r="7" fill="#f5c16c"/>
+  <circle cx="1080" cy="150" r="7" fill="#a5b4fc"/>
+  <text x="120" y="250" fill="#f3f6fb" font-family="Inter, Microsoft YaHei, sans-serif" font-size="76" font-weight="800">Huravar Notes</text>
+  <text x="122" y="322" fill="#a8b3c7" font-family="Inter, Microsoft YaHei, sans-serif" font-size="32">Tech notes, projects, and everyday thoughts</text>
 </svg>

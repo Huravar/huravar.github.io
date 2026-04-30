@@ -1,6 +1,6 @@
 ---
 title: "关于"
-description: "关于 Huravar 和这个博客。"
+description: "关于 Huravar，以及这个博客会记录什么。"
 permalink: /about/
 ---
 
@@ -10,31 +10,31 @@ permalink: /about/
   <p class="eyebrow">About</p>
   <h1>你好，我是 Huravar。</h1>
   <p>
-    这个页面可以放你的个人介绍、技能方向、正在做的项目、联系方式和你希望别人怎样认识你。现在先放一版可直接替换的内容，方便站点上线后继续完善。
+    这是我的个人博客，用来保存学习过程、项目经验和一些日常想法。很多内容可能不完美，但我希望它们足够真实、清楚，并且能在以后被重新翻出来使用。
   </p>
 </section>
 
 <section class="about-grid">
   <div class="glass-panel">
-    <h2>我关注什么</h2>
+    <h2>我会写什么</h2>
     <p>
-      我会把技术学习、项目实践、工具使用、阅读摘记和生活观察写在这里。博客不是一次性作品，而是一个长期沉淀想法的地方。
+      主要是技术笔记、项目复盘、工具使用和阅读后的整理。偶尔也会写一些生活观察，记录当时真正关心的问题。
     </p>
   </div>
 
   <div class="glass-panel">
-    <h2>这个博客的原则</h2>
+    <h2>我希望它是什么样</h2>
     <ul class="check-list">
-      <li>写作流程要简单，Markdown 文件就是内容本身。</li>
-      <li>阅读体验要清晰，重点服务长文、代码和移动端浏览。</li>
-      <li>视觉要有记忆点，但不牺牲速度和可访问性。</li>
+      <li>内容比形式重要，先写清楚，再慢慢写好。</li>
+      <li>文章尽量短一点，问题、过程和结论都说清楚。</li>
+      <li>界面保持干净，让阅读不被装饰打扰。</li>
     </ul>
   </div>
 
   <div class="glass-panel">
-    <h2>可以联系我</h2>
+    <h2>联系与订阅</h2>
     <p>
-      你可以把 GitHub、邮箱、社交媒体或其他链接放在这里。后续只要编辑 <code>about.md</code> 这一页即可。
+      如果你对文章里的内容有想法，可以从 GitHub 找到我。喜欢用阅读器的话，也可以直接订阅 RSS。
     </p>
     <div class="link-stack">
       <a href="https://github.com/Huravar">GitHub</a>
