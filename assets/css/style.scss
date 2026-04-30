@@ -667,6 +667,21 @@ img {
   margin-top: 1.2rem;
 }
 
+.post-tools {
+  display: flex;
+  margin-top: 1.2rem;
+}
+
+.post-tools a {
+  display: inline-flex;
+  padding: 0.48rem 0.75rem;
+  color: var(--accent);
+  font-size: 0.88rem;
+  font-weight: 800;
+  border: 1px solid rgba(45, 226, 230, 0.28);
+  border-radius: 999px;
+}
+
 .post-content {
   padding: clamp(1.3rem, 4vw, 2.35rem);
 }

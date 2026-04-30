@@ -1,0 +1,123 @@
+backend:
+  name: github
+  repo: Huravar/huravar.github.io
+  branch: main
+  base_url: https://huravar.github.io
+  auth_endpoint: auth
+
+site_url: https://huravar.github.io
+display_url: https://huravar.github.io
+logo_url: /assets/images/favicon.svg
+locale: zh_Hans
+
+media_folder: assets/images/uploads
+public_folder: /assets/images/uploads
+
+collections:
+  - name: posts
+    label: 文章
+    label_singular: 文章
+    folder: _posts
+    create: true
+    delete: true
+    extension: md
+    format: frontmatter
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    preview_path: "/posts/{{slug}}/"
+    summary: "{{year}}-{{month}}-{{day}} · {{title}}"
+    sortable_fields: [date, title]
+    view_groups:
+      - label: 年份
+        field: date
+        pattern: "\\d{4}"
+    fields:
+      - label: 标题
+        name: title
+        widget: string
+      - label: 摘要
+        name: description
+        widget: text
+        required: false
+      - label: 发布时间
+        name: date
+        widget: datetime
+        format: "YYYY-MM-DD HH:mm:ss Z"
+      - label: 标签
+        name: tags
+        widget: list
+        required: false
+        hint: 例如：技术、项目、生活、灵感
+        field:
+          label: 标签
+          name: tag
+          widget: string
+      - label: 精选文章
+        name: featured
+        widget: boolean
+        default: false
+        required: false
+      - label: 分享图
+        name: image
+        widget: image
+        default: /assets/images/og-default.svg
+        required: false
+      - label: 正文
+        name: body
+        widget: markdown
+
+  - name: drafts
+    label: 草稿
+    label_singular: 草稿
+    folder: _drafts
+    create: true
+    delete: true
+    extension: md
+    format: frontmatter
+    slug: "{{slug}}"
+    summary: "草稿 · {{title}}"
+    fields:
+      - label: 标题
+        name: title
+        widget: string
+      - label: 摘要
+        name: description
+        widget: text
+        required: false
+      - label: 计划发布时间
+        name: date
+        widget: datetime
+        format: "YYYY-MM-DD HH:mm:ss Z"
+        required: false
+      - label: 标签
+        name: tags
+        widget: list
+        required: false
+        field:
+          label: 标签
+          name: tag
+          widget: string
+      - label: 正文
+        name: body
+        widget: markdown
+
+  - name: pages
+    label: 页面
+    files:
+      - label: 关于页
+        name: about
+        file: about.md
+        fields:
+          - label: 标题
+            name: title
+            widget: string
+          - label: 描述
+            name: description
+            widget: text
+            required: false
+          - label: 固定链接
+            name: permalink
+            widget: hidden
+            default: /about/
+          - label: 页面内容
+            name: body
+            widget: markdown

@@ -17,6 +17,11 @@ layout: default
         <span>{{ page.tags | join: " · " }}</span>
       {% endif %}
     </div>
+
+    {% assign cms_entry = page.path | split: "/" | last | remove: ".md" %}
+    <div class="post-tools">
+      <a href="{{ '/admin/#/collections/posts/entries/' | append: cms_entry | relative_url }}" rel="nofollow">在线编辑本文</a>
+    </div>
   </header>
 
   <div class="post-content glass-panel">
