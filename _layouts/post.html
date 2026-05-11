@@ -3,8 +3,8 @@ layout: default
 ---
 
 <article class="post-shell">
-  <header class="post-hero glass-panel">
-    <a class="eyebrow" href="{{ '/archive/' | relative_url }}">文章</a>
+  <header class="post-header">
+    <a class="post-back" href="{{ '/archive/' | relative_url }}">← 文章归档</a>
     <h1>{{ page.title }}</h1>
     {% if page.description %}
       <p class="post-description">{{ page.description }}</p>
@@ -24,19 +24,19 @@ layout: default
     </div>
   </header>
 
-  <div class="post-content glass-panel">
+  <div class="post-content">
     {{ content }}
   </div>
 
   <nav class="post-pagination" aria-label="文章导航">
     {% if page.previous %}
-      <a class="glass-card" href="{{ page.previous.url | relative_url }}">
+      <a href="{{ page.previous.url | relative_url }}">
         <span>上一篇</span>
         <strong>{{ page.previous.title }}</strong>
       </a>
     {% endif %}
     {% if page.next %}
-      <a class="glass-card" href="{{ page.next.url | relative_url }}">
+      <a href="{{ page.next.url | relative_url }}">
         <span>下一篇</span>
         <strong>{{ page.next.title }}</strong>
       </a>

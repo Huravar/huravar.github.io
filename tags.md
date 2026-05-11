@@ -6,13 +6,12 @@ permalink: /tags/
 
 <!-- markdownlint-disable MD033 -->
 
-<section class="page-hero glass-panel">
-  <p class="eyebrow">Tags</p>
+<section class="page-heading">
   <h1>主题标签</h1>
-  <p>标签像星座，把分散的文章连接成主题脉络。你可以从感兴趣的方向进入阅读。</p>
+  <p>按主题浏览文章。标签不追求复杂，只用来帮自己快速找回相关笔记。</p>
 </section>
 
-<section class="tag-cloud glass-panel">
+<section class="tag-cloud">
   {% assign sorted_tags = site.tags | sort %}
   {% for tag in sorted_tags %}
     <a href="#{{ tag[0] | slugify: 'raw' }}">{{ tag[0] }} <span>{{ tag[1] | size }}</span></a>
@@ -21,7 +20,7 @@ permalink: /tags/
 
 <section class="tag-index">
   {% for tag in sorted_tags %}
-    <div id="{{ tag[0] | slugify: 'raw' }}" class="tag-group glass-panel">
+    <div id="{{ tag[0] | slugify: 'raw' }}" class="tag-group">
       <h2>{{ tag[0] }}</h2>
       <div class="archive-list compact">
         {% for post in tag[1] %}

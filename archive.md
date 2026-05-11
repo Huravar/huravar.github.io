@@ -6,10 +6,9 @@ permalink: /archive/
 
 <!-- markdownlint-disable MD033 -->
 
-<section class="page-hero glass-panel">
-  <p class="eyebrow">Archive</p>
+<section class="page-heading">
   <h1>文章归档</h1>
-  <p>所有文章按发布时间倒序排列，适合快速回看最近写过什么，也适合从时间线里发现主题的变化。</p>
+  <p>按时间倒序放在这里，方便回看最近写过什么，也能看见一段时间里关注点怎么变化。</p>
 </section>
 
 <section class="archive-list">
@@ -19,7 +18,7 @@ permalink: /archive/
       {% unless forloop.first %}
         </div>
       {% endunless %}
-      <div class="archive-year glass-panel">
+      <div class="archive-year">
         <h2>{{ current_year }}</h2>
       {% assign previous_year = current_year %}
     {% endif %}

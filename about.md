@@ -6,8 +6,7 @@ permalink: /about/
 
 <!-- markdownlint-disable MD033 -->
 
-<section class="page-hero glass-panel about-hero">
-  <p class="eyebrow">About</p>
+<section class="page-heading about-hero">
   <h1>你好，我是 Huravar。</h1>
   <p>
     这是我的个人博客，用来保存学习过程、项目经验和一些日常想法。很多内容可能不完美，但我希望它们足够真实、清楚，并且能在以后被重新翻出来使用。
@@ -15,14 +14,14 @@ permalink: /about/
 </section>
 
 <section class="about-grid">
-  <div class="glass-panel">
+  <div class="plain-panel">
     <h2>我会写什么</h2>
     <p>
       主要是技术笔记、项目复盘、工具使用和阅读后的整理。偶尔也会写一些生活观察，记录当时真正关心的问题。
     </p>
   </div>
 
-  <div class="glass-panel">
+  <div class="plain-panel">
     <h2>我希望它是什么样</h2>
     <ul class="check-list">
       <li>内容比形式重要，先写清楚，再慢慢写好。</li>
@@ -31,7 +30,7 @@ permalink: /about/
     </ul>
   </div>
 
-  <div class="glass-panel">
+  <div class="plain-panel">
     <h2>联系与订阅</h2>
     <p>
       如果你对文章里的内容有想法，可以从 GitHub 找到我。喜欢用阅读器的话，也可以直接订阅 RSS。
