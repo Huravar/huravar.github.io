@@ -1,7 +1,7 @@
----
+﻿---
 title: "手写一个最小 Self-Attention"
 description: "从 Q、K、V 和 attention mask 开始，用 PyTorch 写一个小实验理解 Transformer 的核心计算。"
-date: 2026-05-22 20:00:00 +0800
+date: 2026-04-17 20:00:00 +0800
 tags: [AI, Transformer, Attention, PyTorch, 实操]
 ---
 

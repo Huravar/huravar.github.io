@@ -1,7 +1,7 @@
----
+﻿---
 title: "训练一个很小的 Transformer 语言模型"
 description: "用字符级 tokenizer 和小语料训练迷你 Transformer，记录 loss、采样效果和几个不太顺的地方。"
-date: 2026-05-26 20:00:00 +0800
+date: 2026-04-21 20:00:00 +0800
 tags: [AI, Transformer, 语言模型, 实操]
 ---
 

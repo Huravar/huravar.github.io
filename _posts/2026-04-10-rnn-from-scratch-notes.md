@@ -1,7 +1,7 @@
----
+﻿---
 title: "从零写一个 RNN 小实验"
 description: "不用复杂框架封装，手写一个最小 RNN，理解 hidden state、序列输入和梯度不稳定。"
-date: 2026-05-15 20:00:00 +0800
+date: 2026-04-10 20:00:00 +0800
 tags: [AI, RNN, PyTorch, 实操]
 ---
 

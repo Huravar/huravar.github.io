@@ -8,7 +8,7 @@ permalink: /archive/
 
 <section class="page-heading">
   <h1>文章归档</h1>
-  <p>按时间倒序放在这里，方便回看最近写过什么，也能看见一段时间里关注点怎么变化。</p>
+  <p>所有文章按发布时间整理，适合像翻 WordPress 归档一样，从时间线里回看学习路线。</p>
 </section>
 
 <section class="archive-list">

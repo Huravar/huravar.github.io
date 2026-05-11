@@ -8,7 +8,7 @@ permalink: /tags/
 
 <section class="page-heading">
   <h1>主题标签</h1>
-  <p>按主题浏览文章。标签不追求复杂，只用来帮自己快速找回相关笔记。</p>
+  <p>按主题聚合文章，方便从不同方向继续阅读。</p>
 </section>
 
 <section class="tag-cloud">

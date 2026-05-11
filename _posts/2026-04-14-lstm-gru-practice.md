@@ -1,7 +1,7 @@
----
+﻿---
 title: "用 LSTM 和 GRU 重新做一次序列分类"
 description: "在同一个小任务上对比普通 RNN、LSTM 和 GRU，记录门控结构带来的实际差异。"
-date: 2026-05-19 20:00:00 +0800
+date: 2026-04-14 20:00:00 +0800
 tags: [AI, RNN, LSTM, GRU, 实操]
 ---
 

@@ -1,7 +1,7 @@
----
+﻿---
 title: "把 AI 学习环境先搭稳"
 description: "从 Python、Jupyter、PyTorch 到本地模型调用，记录一次不求花哨但能反复使用的 AI 学习环境搭建。"
-date: 2026-05-12 20:00:00 +0800
+date: 2026-04-07 20:00:00 +0800
 tags: [AI, 学习笔记, PyTorch, 实操]
 ---
 
